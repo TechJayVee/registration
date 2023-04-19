@@ -1,0 +1,131 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.field {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.button:hover {
+  background-color: #0069d9;
+}
+.button-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.button-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  width: 100%;
+  border-radius: 4px;
+  color: #0069d9;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+.button-google > .icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
+
+.button-google > .icon-text > svg {
+  margin-left: 0.5rem;
+}
+
+.button-social > .icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
+
+.button-social > .icon-text > svg {
+  margin-left: 0.5rem;
+}
+
+.signup-header {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+.not-found-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found-heading {
+  font-size: 3rem;
+  color: #f44336;
+}
+
+.not-found-text {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+@media (min-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 30%;
+    }
+  }
+}
